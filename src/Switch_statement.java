@@ -48,6 +48,10 @@ public class Switch_statement {
         case 10:
           System.out.println("The number " + userNum + " is diez in Spanish.");
           break;
+          
+        default:
+          System.out.println("Invalid input.");
+          break;  
 
       }
     }
